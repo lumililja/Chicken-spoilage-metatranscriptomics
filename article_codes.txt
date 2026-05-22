@@ -1,0 +1,219 @@
+### METATRANSCRIPTOMIC ANALYSIS OF BROILER CHICKEN ###
+
+##NOTE: all batch scripts were run on CSC supercomputer Puhti, all batch job arguments have been omitted from the scripts as they are mainly only applicable to Puhti
+
+##4-degree data
+
+## Removing 16S and 18S rRNA from the samples
+
+#!/bin/bash
+#
+
+for f in *.fastq.gz
+do
+
+ext=${f##*.}
+rootname=${f%.*}
+basename=${rootname%.*}
+
+export PATH=$PATH:/users/julimann/Applications/SortMeRNA/bin
+
+sortmerna --workdir /users/julimann/Scratch/Metagenomics/SortMeRNA/$basename --ref /users/julimann/Applications/SortMeRNA/data/smr_v4.3_sensitive_db.fasta --reads "$f" --aligned $basename.rRNA-hits --other  $basename.CDS-hit -a 1  --fastx
+
+done
+
+## Removing chicken/broiler reads from the data
+
+## building the index for bowtie2
+
+bowtie2-build GCA_016699485.1_bGalGal1.mat.broiler.GRCg7b_genomic.fna chicken.btindex
+
+## running bowtie2 with the index
+
+#!/bin/bash
+#
+
+for f in *.CDS-hits.fq
+do
+
+ext=${f##*.}
+rootname=${f%.*}
+basename=${rootname%.*}
+versionless=${basename%-*}
+
+bowtie2 -x chicken.btindex --very-sensitive -U -q $f --un $basename.host_removed >> mapped_and_unmapped.sam
+
+done
+
+## running Kraken2 with the processed RNA-seq files
+
+## building the database
+
+#!/bin/bash
+#
+module load biokit
+
+kraken2-build --download-taxonomy --db New_DB --threads 4
+kraken2-build --download-library bacteria --db New_DB --threads 4
+kraken2-build --add-to-library Vagococcus_proximus_GCF_029143285.fna --db New_DB --threads 4
+kraken2-build --add-to-library Photobacterium_carnosum_GCF_021236965.fna --db New_DB --threads 4
+kraken2-build --add-to-library Lactococcus_carnosus_GCF_006770265.fna  --db New_DB --threads 4
+kraken2-build --add-to-library Dellaglioa_algida_GCF_030127605.fna --db New_DB --threads 4
+kraken2-build --add-to-library Dellaglioa_carnosa_GCF_026948345.fna --db New_DB --threads 4
+kraken2-build --add-to-library Vagococcus_fessus_GCF_003987565.1.fna --db New_DB --threads 4
+kraken2-build --build --db New_DB --threads 4
+
+## running kraken2
+
+#!/bin/bash
+#
+
+module load biokit
+
+for f in *.host_removed
+do
+
+ext=${f##*.}
+rootname=${f%.*}
+
+kraken2 $f -db /users/julimann/Scratch/Metagenomics/Kraken2/New_DB/ --threads 2 --minimum-hit-groups 4 --confidence 0.05 --report $rootname.report --output $rootname.output
+
+done
+
+## converting the kraken2 report files into Krona figures 
+
+ktImportTaxonomy -t 5 -m 3 -tax /users/julimann/Scratch/Metagenomics/Kraken2/New_DB/ Correct_kraken_results/*.report -o 04_Deg_Kraken_r_updated_taxonomy.html
+
+#building the bracken database for the 4 degrees samples
+
+#!/bin/bash
+#
+
+module load biokit
+
+export PATH=$PATH:/users/julimann/Applications/Bracken/bin
+
+bracken-build -d /users/julimann/Scratch/Metagenomics/Kraken2/New_DB/  -k 35 -l 75
+
+## running bracken
+
+#!/bin/bash
+#
+
+module load biokit
+
+export PATH=$PATH:/users/julimann/Applications/Bracken/bin
+
+for f in *.report
+do
+
+ext=${f##*.}
+rootname=${f%.*}
+basename=${rootname%.*}
+
+bracken -d /users/julimann/Scratch/Metagenomics/Kraken2/New_DB -i $f -o Correct_bracken_results/$rootname.bracken -r 75  -l 'S' -t 10
+
+done
+
+## Generating Krona out of bracken output
+
+ktImportTaxonomy -t 2 -m 6 -tax /users/julimann/Scratch/Metagenomics/Kraken2/New_DB/ Correct_bracken_results/*.bracken -o 04_Deg_Bracken_r_updated_taxonomy.html
+
+
+### 6 Degrees data ###
+
+## sequencing for 6 degrees was done with both forward and reverse, so there were two sequences per sample
+
+## Removing 16S and 18S reads
+
+#!/bin/bash
+#
+
+for f in   A0{05..19}*.fastq.gz
+do
+
+ext=${f##*.}
+rootname=${f%.*}
+basename=${rootname%.*}
+
+export PATH=$PATH:/users/julimann/Applications/SortMeRNA/bin
+
+sortmerna --workdir /users/julimann/Scratch/Transcriptomics/6Degrees/SMR/$basename --ref /users/julimann/Applications/SortMeRNA/data/smr_v4.3_sensitive_db.fasta --reads $name"_R1_001.fastq.gz" --reads $name"_R2_001.fastq.gz" --paired_out
+ --other $basename.fq.gz --out2 output2.$name.fq --fastx
+
+done
+
+## removing reads aligning to chicken
+## the same chicken index from 4-degree sample was used
+
+#!/bin/bash
+#
+
+for f in *fwd.fq.gz
+do
+
+ext=${f##*.}
+rootname=${f%.*}
+basename=${rootname%.*}
+name=$(echo -n $basename | awk -F '[_]' '{print $1"_"$2"_"$3"_"$4"_"$5}')
+
+bowtie2 --very-sensitive -q -x chicken.btindex -1 $name"_R1_fwd".fq.gz -2 $name"_R2_rev".fq.gz --un-conc $name.host_removed >> mapped_and_unmapped.sam
+
+done
+
+## Kraken2
+
+#!/bin/bash
+#
+
+module load biokit
+
+for f in *.1.host_removed
+do
+
+rootname=${f%.*}
+basename=${rootname%.*}
+
+kraken2 --paired $basename.1.host_removed $basename.2.host_removed -db /users/julimann/Scratch/Transcriptomics/Databases/New_DB --threads 2 --minimum-hit-groups 4 --confidence 0.05 --report $basename.report --output $basename.output
+
+done
+
+## converting the report files to Krona figures
+
+ktImportTaxonomy -t 5 -m 3 -tax /users/julimann/Scratch/Transcriptomics/Databases/New_DB/ 6Deg_kraken_results/*.report -o 06_Deg_Kraken_r_updated_taxonomy.html
+
+## building the bracken database, used the shorter read length (74bp) for the database
+
+#!/bin/bash
+#
+
+module load biokit
+
+export PATH=$PATH:/users/julimann/Applications/Bracken/bin
+
+bracken-build -d /users/julimann/Scratch/Transcriptomics/6Degrees/Kraken2/New_DB/  -k 35 -l 74
+
+#running bracken
+
+#!/bin/bash
+#
+
+module load biokit
+
+export PATH=$PATH:/users/julimann/Applications/Bracken/bin
+
+for f in *.report
+do
+
+ext=${f##*.}
+rootname=${f%.*}
+basename=${rootname%.*}
+
+bracken -d /users/julimann/Scratch/Transcriptomics/6Degrees/Kraken2/New_DB/ -i $rootname.report -o $rootname.bracken -r 74  -l 'S' -t 10
+
+done
+
+## importing results to Krona
+
+ktImportTaxonomy -t 2 -m 6 -tax ../New_DB/ *.bracken -o 06_Deg_Bracken_r_paired.html
+
