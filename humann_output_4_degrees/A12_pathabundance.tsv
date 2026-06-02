@@ -1,0 +1,28 @@
+# Pathway	A12_Abundance
+UNMAPPED	398726.4023845753
+UNINTEGRATED	26770.5415116083
+UNINTEGRATED|g__Carnobacterium.s__Carnobacterium_divergens	37412.2383976329
+UNINTEGRATED|g__Carnobacterium.s__Carnobacterium_maltaromaticum	4592.4088512089
+PWY0-1296: purine ribonucleosides degradation	184.6686595276
+PWY0-1296: purine ribonucleosides degradation|g__Carnobacterium.s__Carnobacterium_divergens	184.6686595276
+PWY-1042: glycolysis IV	158.7593627107
+PWY-1042: glycolysis IV|g__Carnobacterium.s__Carnobacterium_maltaromaticum	78.1787822602
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	111.0164799139
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	60.6060929414
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Carnobacterium.s__Carnobacterium_maltaromaticum	29.1593567064
+PWY-6609: adenine and adenosine salvage III	78.3863486584
+PWY-6609: adenine and adenosine salvage III|g__Carnobacterium.s__Carnobacterium_divergens	69.3187870008
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis	47.4539812041
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	46.2877882937
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I	46.2287336540
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Carnobacterium.s__Carnobacterium_divergens	40.9328313809
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)	44.5454196211
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)|g__Carnobacterium.s__Carnobacterium_divergens	44.5454196211
+PWY-2941: L-lysine biosynthesis II	33.3506364631
+PWY-2941: L-lysine biosynthesis II|g__Carnobacterium.s__Carnobacterium_divergens	32.1884253346
+PWY-7199: pyrimidine deoxyribonucleosides salvage	25.4140071158
+PWY-7199: pyrimidine deoxyribonucleosides salvage|g__Carnobacterium.s__Carnobacterium_divergens	24.2020176027
+PWY-6700: queuosine biosynthesis I (de novo)	23.5306874864
+PWY-6700: queuosine biosynthesis I (de novo)|g__Carnobacterium.s__Carnobacterium_divergens	21.9771025980
+PWY-3841: folate transformations II (plants)	20.6814091625
+PWY-3841: folate transformations II (plants)|g__Carnobacterium.s__Carnobacterium_divergens	20.6814091625

@@ -1,0 +1,21 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.ipynb
+
+# Generated analysis outputs
+KO_4/
+KO_6/
+KO_reactions_pathabundances_4/
+KO_reactions_pathabundances_6/
+humann_rebuild_4/
+humann_rebuild_6/
+bracken_to_metaphlan/
+ko_all_reactions_4.csv
+ko_all_reactions_6.csv
+4_deg_bar_plots.png
+6_deg_bar_plots.png
+
+# These archives exceed GitHub's 100 MB per-file limit.
+utility_mapping/map_ko-expanded_uniref90.txt.gz
+utility_mapping/map_uniref90_name.txt.bz2

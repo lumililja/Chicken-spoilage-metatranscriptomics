@@ -1,0 +1,13 @@
+# Pathway	A10_Coverage
+UNMAPPED	1.0000000000
+UNINTEGRATED	1.0000000000
+UNINTEGRATED|g__Carnobacterium.s__Carnobacterium_divergens	1.0000000000
+UNINTEGRATED|g__Carnobacterium.s__Carnobacterium_maltaromaticum	1.0000000000
+PWY-1042: glycolysis IV	0.0051055330
+PWY-1042: glycolysis IV|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.8957223116
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	0.0002237943
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	0.0590102187
+PWY0-1296: purine ribonucleosides degradation	0.0002859106
+PWY0-1296: purine ribonucleosides degradation|g__Carnobacterium.s__Carnobacterium_divergens	0.0762474381
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I	0.0000001086
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Carnobacterium.s__Carnobacterium_divergens	0.0006934982

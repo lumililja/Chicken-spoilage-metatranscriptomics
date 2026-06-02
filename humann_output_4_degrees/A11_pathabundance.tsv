@@ -1,0 +1,54 @@
+# Pathway	A11_Abundance
+UNMAPPED	385495.7428547337
+UNINTEGRATED	39263.0202519166
+UNINTEGRATED|g__Carnobacterium.s__Carnobacterium_divergens	37299.3303994373
+UNINTEGRATED|g__Vagococcus.s__Vagococcus_proximus	14432.4906564787
+UNINTEGRATED|g__Rahnella.s__Rahnella_inusitata	13630.2441737856
+UNINTEGRATED|g__Carnobacterium.s__Carnobacterium_maltaromaticum	5475.6469832226
+PWY0-1296: purine ribonucleosides degradation	342.0201878531
+PWY0-1296: purine ribonucleosides degradation|g__Carnobacterium.s__Carnobacterium_divergens	314.7346861920
+PWY0-1296: purine ribonucleosides degradation|g__Vagococcus.s__Vagococcus_proximus	9.6168523889
+PWY0-1296: purine ribonucleosides degradation|g__Rahnella.s__Rahnella_inusitata	8.5046066619
+PWY-1042: glycolysis IV	161.1768281360
+PWY-1042: glycolysis IV|g__Carnobacterium.s__Carnobacterium_maltaromaticum	75.3924695537
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	135.3355865935
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	88.2098654158
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Carnobacterium.s__Carnobacterium_maltaromaticum	34.9158160406
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis	67.6126942377
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	66.7239958759
+PWY-6609: adenine and adenosine salvage III	59.5026423763
+PWY-6609: adenine and adenosine salvage III|g__Carnobacterium.s__Carnobacterium_divergens	36.5698415281
+PWY-6609: adenine and adenosine salvage III|g__Carnobacterium.s__Carnobacterium_maltaromaticum	15.2537813767
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I	57.5562668314
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Carnobacterium.s__Carnobacterium_divergens	52.1937405561
+PWY-2941: L-lysine biosynthesis II	56.3548223895
+PWY-2941: L-lysine biosynthesis II|g__Carnobacterium.s__Carnobacterium_divergens	53.9217632573
+CALVIN-PWY: Calvin-Benson-Bassham cycle	55.0062060206
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)	52.0903253277
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Carnobacterium.s__Carnobacterium_divergens	50.3138897001
+PWY-3841: folate transformations II (plants)	42.4035029084
+PWY-3841: folate transformations II (plants)|g__Carnobacterium.s__Carnobacterium_divergens	37.9632210117
+PWY-6151: S-adenosyl-L-methionine salvage I	42.1026683922
+PWY-6151: S-adenosyl-L-methionine salvage I|g__Carnobacterium.s__Carnobacterium_divergens	27.6075779985
+PWY-5097: L-lysine biosynthesis VI	41.1317570450
+PWY-5097: L-lysine biosynthesis VI|g__Carnobacterium.s__Carnobacterium_divergens	39.7545892696
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I	41.0535053958
+PWY-7199: pyrimidine deoxyribonucleosides salvage	39.8452014176
+PWY-7199: pyrimidine deoxyribonucleosides salvage|g__Carnobacterium.s__Carnobacterium_divergens	36.6778997076
+TRNA-CHARGING-PWY: tRNA charging	39.3424411181
+TRNA-CHARGING-PWY: tRNA charging|g__Carnobacterium.s__Carnobacterium_divergens	35.9243340171
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)	36.4828271781
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Carnobacterium.s__Carnobacterium_divergens	26.9649800528
+PWY-8178: pentose phosphate pathway (non-oxidative branch) II	35.4746184923
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)	32.9756029808
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)|g__Carnobacterium.s__Carnobacterium_divergens	32.9756029808
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)	28.4422513172
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Carnobacterium.s__Carnobacterium_divergens	28.1960630738
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)	26.9541422413
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Carnobacterium.s__Carnobacterium_divergens	26.6782070861
+PWY-6700: queuosine biosynthesis I (de novo)	26.2620921364
+PWY-6700: queuosine biosynthesis I (de novo)|g__Carnobacterium.s__Carnobacterium_divergens	24.7399154558
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II	26.1096054312
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II|g__Carnobacterium.s__Carnobacterium_divergens	25.7137953501
+THRESYN-PWY: superpathway of L-threonine biosynthesis	20.3655208248
+THRESYN-PWY: superpathway of L-threonine biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	20.3655208248

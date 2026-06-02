@@ -1,0 +1,58 @@
+# Pathway	concat_A14_Abundance
+UNMAPPED	2553588.3559280154
+UNINTEGRATED	379570.8888668612
+UNINTEGRATED|g__Carnobacterium.s__Carnobacterium_divergens	362306.9303713159
+PWY0-1296: purine ribonucleosides degradation	7074.6296114312
+PWY0-1296: purine ribonucleosides degradation|g__Carnobacterium.s__Carnobacterium_divergens	7074.6296114312
+PWY-6609: adenine and adenosine salvage III	677.7293683539
+PWY-6609: adenine and adenosine salvage III|g__Carnobacterium.s__Carnobacterium_divergens	677.7293683539
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis	475.2502162635
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	475.2502162635
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)	408.8229906896
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)|g__Carnobacterium.s__Carnobacterium_divergens	408.8229906896
+PWY-2941: L-lysine biosynthesis II	347.0067045467
+PWY-2941: L-lysine biosynthesis II|g__Carnobacterium.s__Carnobacterium_divergens	347.0067045467
+PWY-7199: pyrimidine deoxyribonucleosides salvage	334.6824194005
+PWY-7199: pyrimidine deoxyribonucleosides salvage|g__Carnobacterium.s__Carnobacterium_divergens	334.6824194005
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I	317.2317999324
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Carnobacterium.s__Carnobacterium_divergens	317.2317999324
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)	274.4745177870
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Carnobacterium.s__Carnobacterium_divergens	274.4745177870
+PWY-3841: folate transformations II (plants)	257.4562429095
+PWY-3841: folate transformations II (plants)|g__Carnobacterium.s__Carnobacterium_divergens	257.4562429095
+PWY-5097: L-lysine biosynthesis VI	218.9637209171
+PWY-5097: L-lysine biosynthesis VI|g__Carnobacterium.s__Carnobacterium_divergens	218.9637209171
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)	203.9633395960
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Carnobacterium.s__Carnobacterium_divergens	203.9633395960
+TRNA-CHARGING-PWY: tRNA charging	200.3802449651
+TRNA-CHARGING-PWY: tRNA charging|g__Carnobacterium.s__Carnobacterium_divergens	200.3802449651
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)	198.3398864524
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Carnobacterium.s__Carnobacterium_divergens	198.3398864524
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	196.8166039899
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	196.8166039899
+PWY-6151: S-adenosyl-L-methionine salvage I	154.8310117057
+PWY-6151: S-adenosyl-L-methionine salvage I|g__Carnobacterium.s__Carnobacterium_divergens	154.8310117057
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)	133.8003665718
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)|g__Carnobacterium.s__Carnobacterium_divergens	133.8003665718
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)	126.2624271207
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)|g__Carnobacterium.s__Carnobacterium_divergens	126.2624271207
+PWY-7953: UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-diaminopimelate containing)	116.0889342296
+PWY-7953: UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-diaminopimelate containing)|g__Carnobacterium.s__Carnobacterium_divergens	116.0889342296
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II	102.4498325741
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II|g__Carnobacterium.s__Carnobacterium_divergens	102.4498325741
+PWY-6700: queuosine biosynthesis I (de novo)	75.6414998258
+PWY-6700: queuosine biosynthesis I (de novo)|g__Carnobacterium.s__Carnobacterium_divergens	75.6414998258
+THRESYN-PWY: superpathway of L-threonine biosynthesis	74.5462110021
+THRESYN-PWY: superpathway of L-threonine biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	74.5462110021
+P41-PWY: pyruvate fermentation to acetate and (S)-lactate I	68.3535041594
+PWY-5100: pyruvate fermentation to acetate and lactate II	68.3535041594
+COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)	57.0471919619
+COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)|g__Carnobacterium.s__Carnobacterium_divergens	57.0471919619
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)	54.9224565339
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Carnobacterium.s__Carnobacterium_divergens	54.9224565339
+PWY-7851: coenzyme A biosynthesis II (eukaryotic)	54.9224565339
+PWY-7851: coenzyme A biosynthesis II (eukaryotic)|g__Carnobacterium.s__Carnobacterium_divergens	54.9224565339
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)	35.7047628028
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Carnobacterium.s__Carnobacterium_divergens	35.7047628028
+PWY-7237: myo-, chiro- and scyllo-inositol degradation	13.5586516064
+PWY-7237: myo-, chiro- and scyllo-inositol degradation|g__Carnobacterium.s__Carnobacterium_divergens	13.5586516064

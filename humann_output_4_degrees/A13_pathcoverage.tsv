@@ -1,0 +1,24 @@
+# Pathway	A13_Coverage
+UNMAPPED	1.0000000000
+UNINTEGRATED	1.0000000000
+UNINTEGRATED|g__Carnobacterium.s__Carnobacterium_divergens	1.0000000000
+PWY0-1296: purine ribonucleosides degradation	0.9999999906
+PWY0-1296: purine ribonucleosides degradation|g__Carnobacterium.s__Carnobacterium_divergens	0.9999999631
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	0.7026296987
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	0.8278873746
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis	0.8208183952
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	0.9097903528
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I	0.1037864603
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Carnobacterium.s__Carnobacterium_divergens	0.2256521744
+PWY-6609: adenine and adenosine salvage III	0.0004686501
+PWY-6609: adenine and adenosine salvage III|g__Carnobacterium.s__Carnobacterium_divergens	0.0026701937
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)	0.0000041941
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000488411
+PWY-2941: L-lysine biosynthesis II	0.0000012419
+PWY-2941: L-lysine biosynthesis II|g__Carnobacterium.s__Carnobacterium_divergens	0.0000162418
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)	0.0000000478
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000008344
+PWY-5097: L-lysine biosynthesis VI	0.0000000743
+PWY-5097: L-lysine biosynthesis VI|g__Carnobacterium.s__Carnobacterium_divergens	0.0000012925
+PWY-6700: queuosine biosynthesis I (de novo)	0.0000001654
+PWY-6700: queuosine biosynthesis I (de novo)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000025091

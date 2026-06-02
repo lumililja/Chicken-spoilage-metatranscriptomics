@@ -1,0 +1,139 @@
+# Pathway	A24_Coverage
+UNMAPPED	1.0000000000
+UNINTEGRATED	1.0000000000
+UNINTEGRATED|g__Carnobacterium.s__Carnobacterium_divergens	1.0000000000
+UNINTEGRATED|g__Carnobacterium.s__Carnobacterium_maltaromaticum	1.0000000000
+UNINTEGRATED|g__Leuconostoc.s__Leuconostoc_gelidum	1.0000000000
+UNINTEGRATED|g__Vagococcus.s__Vagococcus_proximus	1.0000000000
+PWY0-1296: purine ribonucleosides degradation	1.0000000000
+PWY0-1296: purine ribonucleosides degradation|g__Carnobacterium.s__Carnobacterium_divergens	1.0000000000
+PWY0-1296: purine ribonucleosides degradation|g__Carnobacterium.s__Carnobacterium_maltaromaticum	1.0000000000
+PWY0-1296: purine ribonucleosides degradation|g__Vagococcus.s__Vagococcus_proximus	0.9999999649
+PWY-1042: glycolysis IV	1.0000000000
+PWY-1042: glycolysis IV|g__Carnobacterium.s__Carnobacterium_maltaromaticum	1.0000000000
+PWY-6609: adenine and adenosine salvage III	1.0000000000
+PWY-6609: adenine and adenosine salvage III|g__Carnobacterium.s__Carnobacterium_divergens	0.9897582088
+PWY-6609: adenine and adenosine salvage III|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.9185702420
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I	1.0000000000
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.6145702843
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	1.0000000000
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	0.9999997749
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.9801542984
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Leuconostoc.s__Leuconostoc_gelidum	0.0009880737
+PWY-8178: pentose phosphate pathway (non-oxidative branch) II	0.9999184645
+PWY-8178: pentose phosphate pathway (non-oxidative branch) II|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.0049742974
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I	1.0000000000
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Carnobacterium.s__Carnobacterium_divergens	0.9999996353
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.9396944826
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Leuconostoc.s__Leuconostoc_gelidum	0.0016821305
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)	0.7072373865
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000830036
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.9927429370
+CALVIN-PWY: Calvin-Benson-Bassham cycle	0.0000000000
+PENTOSE-P-PWY: pentose phosphate pathway	0.5884203790
+PENTOSE-P-PWY: pentose phosphate pathway|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.0026660819
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)	0.9889568342
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Carnobacterium.s__Carnobacterium_divergens	0.8193508388
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Leuconostoc.s__Leuconostoc_gelidum	0.0001711640
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.0029108265
+PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I	0.0000000000
+PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I|g__Leuconostoc.s__Leuconostoc_gelidum	0.0014490910
+PWY-2941: L-lysine biosynthesis II	0.9994539983
+PWY-2941: L-lysine biosynthesis II|g__Carnobacterium.s__Carnobacterium_divergens	0.9870293564
+PWY-2941: L-lysine biosynthesis II|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.0135156668
+ANAGLYCOLYSIS-PWY: glycolysis III (from glucose)	0.0000000000
+ANAGLYCOLYSIS-PWY: glycolysis III (from glucose)|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.9881261683
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis	0.9999999972
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	0.9999947675
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Leuconostoc.s__Leuconostoc_gelidum	0.0000551649
+PWY-5097: L-lysine biosynthesis VI	0.9666998985
+PWY-5097: L-lysine biosynthesis VI|g__Carnobacterium.s__Carnobacterium_divergens	0.0904890769
+PWY-5097: L-lysine biosynthesis VI|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.0000193301
+PWY-7199: pyrimidine deoxyribonucleosides salvage	0.0030694044
+PWY-7199: pyrimidine deoxyribonucleosides salvage|g__Carnobacterium.s__Carnobacterium_divergens	0.0001161527
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)	0.0003943182
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000004644
+PWY-6126: superpathway of adenosine nucleotides de novo biosynthesis II	0.0000000000
+PWY-6126: superpathway of adenosine nucleotides de novo biosynthesis II|g__Leuconostoc.s__Leuconostoc_gelidum	0.0016898273
+PWY-6151: S-adenosyl-L-methionine salvage I	0.3480591641
+PWY-6151: S-adenosyl-L-methionine salvage I|g__Carnobacterium.s__Carnobacterium_divergens	0.0000002075
+PWY-6151: S-adenosyl-L-methionine salvage I|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.1799339898
+PWY-6151: S-adenosyl-L-methionine salvage I|g__Leuconostoc.s__Leuconostoc_gelidum	0.0017577960
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I	0.0000000000
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Leuconostoc.s__Leuconostoc_gelidum	0.0014810466
+PWY-3841: folate transformations II (plants)	0.0020544177
+PWY-3841: folate transformations II (plants)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000810723
+TRNA-CHARGING-PWY: tRNA charging	0.0000000000
+TRNA-CHARGING-PWY: tRNA charging|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II	0.0000000000
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II	0.0000000000
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-7208: superpathway of pyrimidine nucleobases salvage	0.0000000000
+PWY-7208: superpathway of pyrimidine nucleobases salvage|g__Leuconostoc.s__Leuconostoc_gelidum	0.0117177354
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)	0.0000000000
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.0000043537
+P124-PWY: Bifidobacterium shunt	0.0000000000
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)	0.0000000000
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.0000034833
+PWY-7953: UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-diaminopimelate containing)	0.0000000000
+PWY-7953: UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-diaminopimelate containing)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II	0.0000000000
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Leuconostoc.s__Leuconostoc_gelidum	0.6228609944
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II	0.0000000000
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Leuconostoc.s__Leuconostoc_gelidum	0.6228609944
+THRESYN-PWY: superpathway of L-threonine biosynthesis	0.0000000000
+THRESYN-PWY: superpathway of L-threonine biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)	0.0000000000
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.0000043541
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)	0.0000000000
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-7197: pyrimidine deoxyribonucleotide phosphorylation	0.0000000000
+PWY-7197: pyrimidine deoxyribonucleotide phosphorylation|g__Leuconostoc.s__Leuconostoc_gelidum	0.0000000014
+PWY-6317: D-galactose degradation I (Leloir pathway)	0.0000000000
+PWY-6317: D-galactose degradation I (Leloir pathway)|g__Leuconostoc.s__Leuconostoc_gelidum	0.9666437877
+PWY-6317: D-galactose degradation I (Leloir pathway)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-7210: pyrimidine deoxyribonucleotides biosynthesis from CTP	0.0000000000
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)	0.0000000001
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.1127629322
+PWY-7184: pyrimidine deoxyribonucleotides de novo biosynthesis I	0.0000000000
+PWY-7198: pyrimidine deoxyribonucleotides de novo biosynthesis IV	0.0000000000
+PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation	0.0000000000
+COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)	0.0000000000
+COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-7851: coenzyme A biosynthesis II (eukaryotic)	0.0000000000
+PWY-7851: coenzyme A biosynthesis II (eukaryotic)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-5100: pyruvate fermentation to acetate and lactate II	0.0000000000
+P41-PWY: pyruvate fermentation to acetate and (S)-lactate I	0.0000000000
+PWY-5695: inosine 5'-phosphate degradation	0.0000000000
+PWY-5695: inosine 5'-phosphate degradation|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.6320110601
+PWY-6700: queuosine biosynthesis I (de novo)	0.0000000000
+PWY-6700: queuosine biosynthesis I (de novo)|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate	0.0000000000
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-7185: UTP and CTP dephosphorylation I	0.0000000000
+PWY-6527: stachyose degradation	0.0000000000
+PWY-6527: stachyose degradation|g__Leuconostoc.s__Leuconostoc_gelidum	0.0000757121
+PWY-4041: &gamma;-glutamyl cycle	0.0000000000
+PWY-4041: &gamma;-glutamyl cycle|g__Vagococcus.s__Vagococcus_proximus	0.9684779823
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)	0.0000000000
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.2157977895
+ARO-PWY: chorismate biosynthesis I	0.0000000000
+ARO-PWY: chorismate biosynthesis I|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-6123: inosine-5'-phosphate biosynthesis I	0.0000000000
+PWY-6123: inosine-5'-phosphate biosynthesis I|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-5973: cis-vaccenate biosynthesis	0.0000000000
+PWY-5973: cis-vaccenate biosynthesis|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.0000000880
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II	0.0000000000
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis	0.0000000000
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-7663: gondoate biosynthesis (anaerobic)	0.0000000000
+PWY-7663: gondoate biosynthesis (anaerobic)|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.0000000704
+PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I	0.0000000000
+PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000
+PWY-7237: myo-, chiro- and scyllo-inositol degradation	0.0000000000
+PWY-7237: myo-, chiro- and scyllo-inositol degradation|g__Carnobacterium.s__Carnobacterium_divergens	0.0000000000

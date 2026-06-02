@@ -1,0 +1,39 @@
+# Pathway	A15_Coverage
+UNMAPPED	1.0000000000
+UNINTEGRATED	1.0000000000
+UNINTEGRATED|g__Carnobacterium.s__Carnobacterium_divergens	1.0000000000
+UNINTEGRATED|g__Carnobacterium.s__Carnobacterium_maltaromaticum	1.0000000000
+UNINTEGRATED|g__Yersinia.s__Yersinia_intermedia	1.0000000000
+PWY-1042: glycolysis IV	1.0000000000
+PWY-1042: glycolysis IV|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.9997971591
+PWY-1042: glycolysis IV|g__Yersinia.s__Yersinia_intermedia	0.0013688553
+ANAGLYCOLYSIS-PWY: glycolysis III (from glucose)	0.9999670947
+PWY0-1296: purine ribonucleosides degradation	0.9999984913
+PWY0-1296: purine ribonucleosides degradation|g__Carnobacterium.s__Carnobacterium_divergens	0.9921331164
+PWY0-1297: superpathway of purine deoxyribonucleosides degradation	0.9999970534
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	0.9996993030
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	0.3051725624
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.7479164318
+P161-PWY: acetylene degradation (anaerobic)	0.8415081859
+P161-PWY: acetylene degradation (anaerobic)|g__Yersinia.s__Yersinia_intermedia	0.4329010748
+PWY0-1477: ethanolamine utilization	0.8415081859
+PWY0-1477: ethanolamine utilization|g__Yersinia.s__Yersinia_intermedia	0.4329010748
+PWY-6609: adenine and adenosine salvage III	0.4997988592
+PWY-6609: adenine and adenosine salvage III|g__Carnobacterium.s__Carnobacterium_divergens	0.0001048926
+PWY-6609: adenine and adenosine salvage III|g__Carnobacterium.s__Carnobacterium_maltaromaticum	0.0000068256
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis	0.8712604858
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Carnobacterium.s__Carnobacterium_divergens	0.2255636581
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)	0.3925021137
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Yersinia.s__Yersinia_intermedia	0.0329986939
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I	0.5020145016
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Carnobacterium.s__Carnobacterium_divergens	0.0060534477
+PWY-2941: L-lysine biosynthesis II	0.1608290267
+PWY-2941: L-lysine biosynthesis II|g__Carnobacterium.s__Carnobacterium_divergens	0.0013424979
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I	0.0107510766
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Yersinia.s__Yersinia_intermedia	0.0012575604
+PWY-8178: pentose phosphate pathway (non-oxidative branch) II	0.0001534901
+PWY-5097: L-lysine biosynthesis VI	0.0742927976
+PWY-5097: L-lysine biosynthesis VI|g__Carnobacterium.s__Carnobacterium_divergens	0.0003017232
+PWY0-862: (5Z)-dodecenoate biosynthesis I	0.0001248689
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate	0.0001572598
+PWY-7663: gondoate biosynthesis (anaerobic)	0.0000833722
