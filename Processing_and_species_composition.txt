@@ -55,6 +55,8 @@ module load biokit
 
 kraken2-build --download-taxonomy --db New_DB --threads 4
 kraken2-build --download-library bacteria --db New_DB --threads 4
+kraken2-build --download-library fungi --db New_DB --threads 4
+kraken2-build --download-library viral --db New_DB --threads 4
 kraken2-build --add-to-library Vagococcus_proximus_GCF_029143285.fna --db New_DB --threads 4
 kraken2-build --add-to-library Photobacterium_carnosum_GCF_021236965.fna --db New_DB --threads 4
 kraken2-build --add-to-library Lactococcus_carnosus_GCF_006770265.fna  --db New_DB --threads 4
